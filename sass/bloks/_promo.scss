@@ -1,0 +1,56 @@
+.promo {
+  min-height: 650px;
+  padding: 21px 0 93px 0;
+  background: url('../../img/bg-first-banner.jpg') center (center/cover) no-repeat;
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 90px;
+  }
+  &__header {
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  &__subheader {
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin: 17px 0 0 0;
+  }
+  &__icons {
+    margin-top: 65px;
+    width: 425px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    width: 136px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #ffffff;
+    img {
+      margin-bottom: 20px;
+    }
+  }
+  &__link {
+    margin-top: 18px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    a {
+      font-weight: 500;
+      color: #ffffff;
+      text-transform: uppercase;
+    }
+  }
+}

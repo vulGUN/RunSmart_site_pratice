@@ -1,0 +1,152 @@
+// @media ( max-width: 1400px )
+
+// медиа запросы для системной темы (надо настроить)
+
+// @media (prefers-color-scheme: dark) {
+//   html {
+//     background-color: #333;
+//     color: #fff;
+//   }
+// }
+
+// @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+//   html {
+//     background-color: #f6f6f6;
+//     color: #000;
+//   }
+// }
+
+@media (max-width: 1199px) {
+  .container {
+    max-width: 850px;
+  }
+  .promo {
+    background-position-x: 25%;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+    max-width: 700px;
+  }
+  .header {
+    &__official {
+      display: none;
+    }
+  }
+  .advantages {
+    &__item {
+      max-width: 200px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: 515px;
+  }
+  .promo {
+    min-height: 500px;
+    padding: 15px 0 40px 0;
+    background-image: linear-gradient(62deg, #1a8959 0%, #8e8e1c 100%);
+
+    border-radius: 20px;
+    margin: 10px;
+    &__wrapper {
+      align-items: center;
+      margin-top: 60px;
+    }
+    &__header {
+      font-size: 38px;
+    }
+    &__subheader {
+      font-size: 20px;
+    }
+  }
+  .title {
+    font-size: 26px;
+  }
+  .advantages {
+    padding: 60px 0 10px 0;
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      max-width: 400px;
+      margin-bottom: 50px;
+    }
+    &__header {
+      margin-top: 20px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 95%;
+  }
+  .header {
+    &__logo img {
+      width: 80%;
+    }
+    &__contacts {
+      .header__phone {
+        font-size: 14px;
+      }
+      button {
+        width: 130px;
+        margin-top: 5px;
+      }
+    }
+  }
+  .promo {
+    min-height: 500px;
+    padding: 15px 0 40px 0;
+
+    &__wrapper {
+      align-items: center;
+      margin-top: 50px;
+    }
+    &__header {
+      font-size: 24px;
+    }
+    &__subheader {
+      font-size: 14px;
+    }
+    &__icons {
+      width: 100%;
+      justify-content: space-around;
+    }
+    &__item {
+      justify-content: flex-end;
+      font-size: 12px;
+      width: 100px;
+      img {
+        width: 40px;
+      }
+    }
+    .button_main {
+      width: 270px;
+      font-size: 14px;
+      margin-top: 50px;
+    }
+  }
+  .title {
+    font-size: 20px;
+  }
+  .advantages {
+    padding: 60px 0 10px 0;
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      max-width: 400px;
+      margin-bottom: 50px;
+    }
+    &__header {
+      margin-top: 20px;
+    }
+  }
+}
