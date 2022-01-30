@@ -1,5 +1,5 @@
 .advantages {
-  background-color: #f6f6f6;
+  // background-color: #f6f6f6;
   padding: 73px 0 65px 0;
   &__wrapper {
     margin-top: 60px;
@@ -10,9 +10,12 @@
   &__item {
     max-width: 277px;
     text-align: center;
+    img {
+      width: 120px;
+    }
   }
   &__header {
-    margin-top: 35px;
+    margin-top: 15px;
     font-weight: 700;
     font-size: 18px;
     color: #0d0d0d;
