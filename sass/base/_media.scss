@@ -180,8 +180,15 @@
     }
   }
   .consultation {
+    padding: 40px 0;
     &__deskr {
       font-size: 14px;
     }
+  }
+}
+
+@media (max-width: 440px) {
+  .feed-form {
+    max-width: 280px;
   }
 }
