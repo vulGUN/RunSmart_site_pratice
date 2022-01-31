@@ -64,7 +64,6 @@
     min-height: 500px;
     padding: 15px 0 40px 0;
     border-radius: 20px;
-    margin: 10px 20px;
     &__wrapper {
       align-items: center;
       margin-top: 60px;
@@ -159,6 +158,7 @@
     max-width: 95%;
   }
   .header__contacts {
+    margin-right: 8px;
     .header__phone {
       font-size: 16px;
     }
@@ -170,7 +170,7 @@
   .promo {
     min-height: 500px;
     padding: 15px 0 40px 0;
-
+    margin: 10px;
     &__wrapper {
       align-items: center;
       margin-top: 50px;
@@ -194,7 +194,7 @@
       }
     }
     .button_main {
-      width: 270px;
+      width: 250px;
       font-size: 14px;
       margin-top: 50px;
     }
@@ -221,6 +221,7 @@
   }
   .consultation {
     padding: 40px 0;
+    margin: 10px;
     &__deskr {
       font-size: 14px;
     }
