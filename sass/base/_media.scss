@@ -151,6 +151,15 @@
       font-size: 16px;
     }
   }
+  .carousel {
+    .prev,
+    .next {
+      display: none;
+    }
+    .carousel__inner img {
+      width: 95%;
+    }
+  }
 }
 
 @media (max-width: 575px) {
