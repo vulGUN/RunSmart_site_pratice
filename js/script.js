@@ -22,15 +22,18 @@ const slider = tns({
   autoHeight: true,
   speed: 900,
   slideBy: 'page',
-  autoplay: false,
   controls: false,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  autoplayButtonOutput: false,
   responsive: {
-    768: {
+    767: {
       nav: false,
     },
     0: {
       nav: true,
       navPosition: 'bottom',
+      speed: 650,
     },
   },
 })

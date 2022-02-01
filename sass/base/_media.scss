@@ -49,6 +49,23 @@
       max-width: 200px;
     }
   }
+  .carousel {
+    .prev,
+    .next {
+      left: -25px;
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+    .next {
+      right: -25px;
+      left: auto;
+    }
+    .carousel__inner img {
+      width: 85%;
+    }
+  }
 }
 
 @media (max-width: 767px) {

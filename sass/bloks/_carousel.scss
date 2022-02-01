@@ -12,10 +12,10 @@
     transform: translateY(-50%);
     left: -66px;
     border: none;
-    background-color: #fff;
+    background: none;
     img {
-      width: 31px;
-      height: 52px;
+      width: 60px;
+      height: 60px;
     }
   }
   .next {
@@ -33,10 +33,10 @@
     margin-top: 15px;
     button {
       background-color: rgb(194, 194, 194);
-      width: 30px;
-      height: 4px;
+      width: 34px;
+      height: 3px;
       border: none;
-      margin: 0 5px;
+      margin: 0 6px;
       transition: 0.25s all ease-out;
     }
     .tns-nav-active {
