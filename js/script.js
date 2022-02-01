@@ -23,7 +23,7 @@ const slider = tns({
   speed: 900,
   slideBy: 'page',
   controls: false,
-  autoplay: true,
+  autoplay: false,
   autoplayTimeout: 3000,
   autoplayButtonOutput: false,
   autoplayHoverPause: true,
