@@ -252,6 +252,18 @@
       font-size: 14px;
     }
   }
+  .catalog {
+    &__tabs {
+      margin-top: 50px;
+    }
+    &__tab {
+      margin: 0 5px;
+      width: 126px;
+      height: 46px;
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
 }
 
 @media (max-width: 440px) {
