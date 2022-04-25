@@ -2,6 +2,10 @@
   font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
+.fix {
+  position: fixed;
+}
+
 .container {
   position: relative;
   max-width: 950px;
@@ -21,4 +25,5 @@
 @import 'bloks/rewiews';
 @import 'bloks/footer';
 @import 'bloks/modal';
+@import 'bloks/pageup';
 @import 'base/media';

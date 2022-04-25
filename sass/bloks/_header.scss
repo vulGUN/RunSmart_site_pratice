@@ -11,17 +11,18 @@
   }
   &__official {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 16px;
     color: #ffffff;
     text-align: center;
     text-shadow: rgb(36, 36, 36) 0 0 20px;
     span {
       display: block;
-      font-size: 18px;
+      font-size: 22px;
     }
   }
   &__phone {
     display: block;
+    margin-bottom: 5px;
     font-weight: 900;
     font-size: 18px;
     text-align: right;

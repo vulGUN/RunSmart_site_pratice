@@ -10,4 +10,16 @@
     font-size: 20px;
     color: #ffffff;
   }
+  .error {
+    border: 2px solid red;
+  }
+  label.error {
+    color: #ffffff;
+    border: none;
+    font-size: 14px;
+    margin-bottom: 25px;
+  }
+  input.error {
+    margin-bottom: 7px;
+  }
 }
